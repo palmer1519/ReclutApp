@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".empresa.agregar.AgregarFragment">
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="131dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="688dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="16dp"
+        android:background="#0A03DAC5"
+        android:layout_marginBottom="145dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Nombre del puesto"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Nivel"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Clave"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+                    >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Departamento"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Jefe de inmediato"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Plazas"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+                    >
+                </EditText>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Días de trabajo"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Turno"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Horario"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+                    >
+                </EditText>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Puestos dependientes"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Localización en la empreza"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textAlignment="center"
+                    android:hint="@string/Localizacion"
+                    android:textColorHint="@color/Gris"
+                    android:background="@color/white"
+                    >
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Objetivos"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Descripción general"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+                </EditText>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Descripción especifica"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Actividades diarias"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Actividades periodicas"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="11dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Actividades eventuales"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="11dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+                    >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textStyle="bold"
+                    android:text="Requisitos intelectuales"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Escolaridad"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Experiencia"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Conocimiento necesarios"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Habilidades"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textStyle="bold"
+                    android:text="Responsabilidades implicitas"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Por supervision del personal"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Por bienes"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    android:text="Por información confidencial"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Por relaciones internas y externas"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="11dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Condiciones de trabajo"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="1dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Ambito de trabajo"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+                    >
+                </TextView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textStyle="bold"
+                    android:text="Registro de trabajo"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Accidentes de trabajo"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Enfermedades profesionales"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="11dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textStyle="bold"
+                    android:text="Perfil"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Edad"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Sexo"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="11dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Estado civil"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="11dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </EditText>
+
+                <EditText
+                    android:layout_width="121dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+                    >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="Rasgos fisicos"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:text="Rasgos psicológicos"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp">
+
+                <EditText
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background ="@color/white"
+
+                    >
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="10.5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:background="@color/white"
+
+                    >
+                </EditText>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

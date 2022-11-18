@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="378dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textVieww"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="Test psicometrico"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="530dp"
+        android:layout_margin="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="1.- Si AxB=24, CxD=32, BxD=48 y BxC=24, ¿cuánto es AxBxCxD?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:text="480" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="576" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="768" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="824" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="744" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.- Añada a la serie la letra que corresponda por lógica: A / D / G / J / ?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:text="LL" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="O" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="P" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="N" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="3.- Proyecto es a boceto como desavenencia es a…." />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:text="Disensión" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Discernir" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Asentir" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Disension" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.- ¿Cuántos errores ortográficos hay en la siguiente frase? Los habitantes balientes se esforzaron por luchar contra el pernicioso efecto de la cequia, que amenasaba con arruinar todas las cosechas de mais." />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:text="3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="4" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="5" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="6" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.- Indique cuál de estos adjetivos lo describe mejor a usted:" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:text="Intuitivo" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Impulsivo" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Razonable" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Apasionado" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_redondeado2"
+                android:onClick="irACrearOficio"
+                android:text="Finalizar test" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/navigation_inicioE"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_inicio" />
+
+    <item
+        android:id="@+id/navigation_agregarE"
+        android:icon="@drawable/agregar_24"
+        android:title="@string/title_agregar" />
+
+    <item
+        android:id="@+id/navigation_busquedaE"
+        android:icon="@drawable/buscar_24"
+        android:title="@string/title_busqueda" />
+
+
+    <item
+        android:id="@+id/navigation_pagoE"
+        android:icon="@drawable/pago_24"
+        android:title="@string/title_metodo" />
+
+
+
+
+
+
+</menu>

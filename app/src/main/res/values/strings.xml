@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">ReclutApp</string>
+    <string name="Correo">Correo electronico</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Ingresar">INICIO</string>
+    <string name="Registrar">REGISTRAR</string>
+    <string name="Login">Eres nuevo? Registrate!</string>
+    <string name="Nombre">Nombre completo</string>
+    <string name="RFC">RFC</string>
+    <string name="RazonSocial">Razòn social</string>
+    <string name="Nombrerepre">Nombre del representante</string>
+    <string name="NombreEmp">Nombre de la empresa</string>
+    <string name="NumeroSeg">Nùmero de seguridad social</string>
+    <string name="Curp">CURP</string>
+    <string name="AggT">Agrega tu màs reciente trabajo</string>
+    <string name="title_activity_main_oficio">MainOficio</string>
+    <string name="title_home">Datos personales</string>
+
+    <string name="title_dashboard">Datos laborales</string>
+    <string name="title_notifications">Publicidad</string>
+
+    <string name="Buscar">Buscar</string>
+
+
+    <string name="title_inicio">Inicio</string>
+    <string name="title_busqueda">Búsqueda</string>
+    <string name="title_agregar">Agregar</string>
+    <string name="title_certificado">Certificado</string>
+    <string name="title_metodo">Método de pago</string>
+    <string name="title_CV">Currículum vitae </string>
+    <string name="confContrasena">Confirmar contraseña</string>
+
+    <string name="continuar">CONTINUAR</string>
+
+
+    //Crear cuenta
+    <string name="NombreCompleto">Nombre completo</string>
+    <string name="Edad">Edad</string>
+    <string name="EstadoCivil">Estado Civil</string>
+    <string name="Estado">Estado</string>
+    <string name="Municipio">Municipio</string>
+    <string name="CodigoPos">Código postal</string>
+    <string name="NumeroTelefono">Número teléfono</string>
+    <string name="ConfirmarNumero">Confirmar Número</string>
+    <string name="CorreoSustituto">Correo sustituto</string>
+
+
+    <string name="ActaNacimiento">Acta de nacimiento</string>
+    <string name="CURP">CURP</string>
+    <string name="CredencialLector">Credencial de lector</string>
+    <string name="ComprobanteDomicilio">Comprobante de domicilio</string>
+    <string name="Certificados">Certificados (Cursos)</string>
+    <string name="CertificadoPrimaria">Certificado primaria</string>
+    <string name="CertificadoSecundaria">Certificado secundaria</string>
+    <string name="CertificadoPreparatoria">Certificado preparatoria</string>
+    <string name="CarreraTrunca">Carrera trunca</string>
+    <string name="Guardra">GUARDAR</string>
+    <string name="Describir">Describir la razón social de su empresa</string>
+    <string name="Delegacion">Delegación</string>
+
+
+    <string name="Localizacion">Foto de la posición en el organigrama</string>
+
+</resources>

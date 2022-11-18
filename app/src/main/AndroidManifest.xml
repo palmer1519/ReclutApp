@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ReclutApp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MetodoPago"
+            android:exported="false" />
+        <activity
+            android:name=".Notificaciones"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilEmp"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilPro"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil"
+            android:exported="false" />
+        <activity
+            android:name=".aviso"
+            android:exported="false" />
+        <activity
+            android:name=".CrearPerfilEmpresa"
+            android:exported="false" />
+        <activity
+            android:name=".CrearPerfilProfesion2"
+            android:exported="false" />
+        <activity
+            android:name=".CrearPerfilProfesion"
+            android:exported="false" />
+        <activity
+            android:name=".CrearPerfilOficio2"
+            android:exported="false" />
+        <activity
+            android:name=".CrearPerfilOficio"
+            android:exported="false" />
+        <activity
+            android:name=".HomeEmpresa"
+            android:exported="false" />
+        <activity
+            android:name=".Re_Oficio"
+            android:exported="false" />
+        <activity
+            android:name=".Re_Profecion"
+            android:exported="false" />
+        <activity
+            android:name=".Re_Empresa"
+            android:exported="false" />
+        <activity
+            android:name=".IngresarDatos"
+            android:exported="false" />
+        <activity
+            android:name=".Seleccion"
+            android:exported="false" />
+        <activity
+            android:name=".IntroductoryActivity"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".Login"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".MainOficio"
+            android:exported="false"
+            android:theme="@style/Menu" />
+        <activity
+            android:name=".MainProfesion"
+            android:exported="false" />
+        <activity
+            android:name=".MainEmpresa"
+            android:exported="false" />
+        <activity
+            android:name=".Test"
+            android:exported="false" />
+    </application>
+
+</manifest>

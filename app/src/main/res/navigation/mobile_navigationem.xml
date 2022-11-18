@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_inicioE">
+
+    <fragment
+        android:id="@+id/navigation_inicioE"
+        android:name="com.example.ReclutApp.empresa.inicio.InicioFragment"
+        android:label="@string/title_inicio"
+        tools:layout="@layout/fragment_inicioem" />
+
+    <fragment
+        android:id="@+id/navigation_busquedaE"
+        android:name="com.example.ReclutApp.empresa.busqueda.BusquedaFragment"
+        android:label="@string/title_busqueda"
+        tools:layout="@layout/fragment_busquedaem" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_agregarE"
+        android:name="com.example.ReclutApp.empresa.agregar.AgregarFragment"
+        android:label="@string/title_agregar"
+        tools:layout="@layout/fragment_agregarem" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_pagoE"
+        android:name="com.example.ReclutApp.empresa.pago.PagoFragment"
+        android:label="@string/title_metodo"
+        tools:layout="@layout/fragment_pagoem" >
+
+    </fragment>
+
+
+</navigation>

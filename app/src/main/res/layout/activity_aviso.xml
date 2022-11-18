@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aviso">
+
+    <TextView
+
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Ya tienes una cuenta? Inicia sesión"
+        android:textColor="@color/Gris"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Debido a la naturaleza de nuestra actividad profesional es necesaria la recopilación de ciertos datos personales, cuya utilización se encuentra limitada única y exclusivamente a poder ofrecer a los contratistas personas con aptitudes profesionales. De esta manera asumimos la obligación moral, social y legal de establecer medidas de seguridad adecuadas para proteger y garantizar la privacidad de los datos de los usuarios de nuestros servicios. "
+        android:textColor="@color/Gris"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+    </TextView>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/cerrar_24"
+        android:backgroundTint="@color/Gris"
+        android:textSize="18dp"
+        android:onClick="irRegistro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

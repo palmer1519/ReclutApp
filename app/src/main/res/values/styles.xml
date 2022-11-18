@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Lima</item> //Nav_Bottom
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/VerdeP</item> //Barra de estado
+    </style>
+
+    <style name="Menu" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorAccent</item> //Nav_Bottom
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item> //Barra de estado
+    </style>
+
+    <style name="Menu2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorAccent</item> //Nav_Bottom
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/black</item> //Barra de estado
+    </style>
+
+</resources>

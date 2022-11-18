@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearPerfilOficio2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="315dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/VerdeP"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/cerrar_24"></ImageButton>
+
+                <LinearLayout
+                    android:layout_width="315dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:text="Creando perfil"
+                        android:textColor="@color/Gris"
+                        android:textSize="30dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:text="Información laboral y académica"
+                        android:textColor="@color/Gris"
+                        android:textSize="15dp"></TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/logo2"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Oficio"
+                        android:textAlignment="center"
+                        android:textColor="@color/Gris"
+                        android:textSize="10dp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textActaNacimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:text="Acta de nacimineto"
+                android:textColor="@color/black"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ActaNacimiento"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarActa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/EliminarActa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar">
+
+                </Button>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textCurp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="CURP"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/CURP"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarCURP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/EliminarCURP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textCredencial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="Credencial de lector"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/Credencial"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarCredencial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/EliminarCredencial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textComprobante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="Comprobante de domicilio"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/Comprobante"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarComprobante"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/EliminarComprobante"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textCurriculum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="Currículum / Solicitud elaborada"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/Curriculum"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarCurriculum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/EliminarCurriculum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textCertificados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="Certificados (Cursos)"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/Certificados"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarCertificado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/EliminarCertificado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textCertificadoPrimaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="Certificado de primaria"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/CertificadoPrimaria"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarCertificadoPrimaria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/EliminarCertificadoPrimaria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textCertificadoSecundaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="Certificado de secundaria"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/CertificadoSecundaria"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarCertificadoSecundaria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar"></Button>
+
+                <Button
+                    android:id="@+id/EliminarCertificadoSecundaria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar"></Button>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textCertificadoPreparatoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="Cetificado de preparatoria"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/CertificadoPreparatoria"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarCertificadoPreparatoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar"></Button>
+
+                <Button
+                    android:id="@+id/EliminarCertificadoPreparatoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar"></Button>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textCarrera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="Carrera trunca"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/Carrera"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic_baseline_add_photo_alternate_24"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AgregarCarrera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Agregar"></Button>
+
+
+                <Button
+                    android:id="@+id/EliminrCarrera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="@color/VerdeP"
+                    android:text="Eliminar"></Button>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/inicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/boton_redondeado2"
+                android:backgroundTint="@color/VerdeP"
+                android:hint="@string/Guardra"
+                android:onClick="inicioOficio"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
